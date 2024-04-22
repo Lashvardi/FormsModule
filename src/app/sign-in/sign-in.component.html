@@ -1,0 +1,9 @@
+
+<!-- როდესაც ვიყენებთ ngModel-ს აუციელებელია რომ input-ს -->
+<!-- ქონდეს name თვისება -->
+<input type="email" [(ngModel)]="email" name="email">
+<input type="password" [(ngModel)]="password" name="password">
+<button (click)="signIn()">Sign In</button>
+
+<p>ემაილი:{{email}}</p>
+<p>პაროლი:{{password}}</p>
